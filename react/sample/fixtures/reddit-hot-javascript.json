@@ -1,0 +1,236 @@
+[
+  {
+    "id": "2upyol",
+    "url": "http://www.reddit.com/r/javascript/comments/2upyol/learning_js_feedback_or_questions_about_the_sub/",
+    "title": "Learning JS? Feedback or questions about the sub? Subreddit stats? See inside!",
+    "author": "kenman",
+    "text": "## Greetings!\n\n* [Guidelines](http://www.reddit.com/r/javascript/wiki/index)\n* [Sidebar](http://www.reddit.com/r/javascript/about/sidebar)\n\n## Learning JavaScript?\n\n* /r/LearnJavaScript\n* [Best place to learn JavaScript?](http://www.reddit.com/r/javascript/comments/25a9jx/best_place_to_learn_javascript/)\n* [What's the best way to learn programming (javascript first language)](http://www.reddit.com/r/javascript/comments/2cnxau/whats_the_best_way_to_learn_programming/)\n* [How to learn javascript properly?](http://www.reddit.com/r/javascript/comments/29bj6h/how_to_learn_javascript_properly/)\n\n## Stats (via [prawtools](https://github.com/praw-dev/prawtools))\n\n* [June 2015](https://www.reddit.com/r/javascript/comments/3cj31l/subreddit_stats_june_2015/)\n* [Year of 2014](http://www.reddit.com/r/javascript/comments/2r9gw0/subreddit_stats_year_of_2014/)\n* [All stats posts](http://www.reddit.com/r/javascript/search?sort=new&amp;restrict_sr=on&amp;q=flair%3ASubreddit%2BStats)",
+    "board": "javascript",
+    "createdAt": 1423023706000
+  },
+  {
+    "id": "3kxln2",
+    "url": "https://code.facebook.com/posts/1189117404435352/",
+    "title": "React Native for Android: How we built the first cross-platform React Native app",
+    "author": "clessg",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442251532000
+  },
+  {
+    "id": "3kx20l",
+    "url": "https://medium.com/@_cmdv_/i-want-to-learn-javascript-in-2015-e96cd85ad225",
+    "title": "Want to learn JavaScript in 2015?",
+    "author": "speckz",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442243487000
+  },
+  {
+    "id": "3l0lae",
+    "url": "https://www.polymer-project.org/summit",
+    "title": "Polymer Summit in Amsterdam is live streaming NOW",
+    "author": "sime",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442302420000
+  },
+  {
+    "id": "3kxrm7",
+    "url": "http://survivejs.com/blog/redux-interview/",
+    "title": "Redux - Reinventing Flux - Interview With Dan Abramov",
+    "author": "clessg",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442253810000
+  },
+  {
+    "id": "3kymtf",
+    "url": "https://github.com/ProjectSeptemberInc/gl-react/releases/tag/v1.0.0",
+    "title": "gl-react 1.0.0 released: powerful WebGL effects and filters in React",
+    "author": "mrspeaker",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442266034000
+  },
+  {
+    "id": "3l0dvb",
+    "url": "http://github.com/evanburchard/easylogin",
+    "title": "EasyLogin – Chrome and Firefox extensions that stop the idiocy of searching for links to log in to websites. Also useful as simple browser extension example code.",
+    "author": "tailanyways",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442297066000
+  },
+  {
+    "id": "3l0a5w",
+    "url": "http://www.reddit.com/r/javascript/comments/3l0a5w/why_do_developers_use_self/",
+    "title": "Why do developers use self?",
+    "author": "gladiator_flow",
+    "text": "I've been studying up on Javascript a lot lately and I ran across something developers do in their code that I'm quite not sure why they do it.\n\n    var self   = this;\n\nWhat's the point of assigning `this` to the self variable? Why not just use `this`...? I'm just wondering if this is a stylistic preference or is their some underlying value to doing this.",
+    "board": "javascript",
+    "createdAt": 1442294586000
+  },
+  {
+    "id": "3kvlfp",
+    "url": "https://github.com/nodejs/node/issues/2798",
+    "title": "Before you upgrade, a comprehensive list of packages that do not work with Node 4.0.0",
+    "author": "skitch920",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442210812000
+  },
+  {
+    "id": "3kw3cg",
+    "url": "http://konkle.us/state-management-with-redux/",
+    "title": "State Management with Redux",
+    "author": "mpjme",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442224198000
+  },
+  {
+    "id": "3kyzrf",
+    "url": "https://github.com/PaulBGD/HashMap.js",
+    "title": "HashMap.js - 500 byte library for HashMaps in JavaScript",
+    "author": "PaulBGD",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442271553000
+  },
+  {
+    "id": "3kyfz7",
+    "url": "https://code.facebook.com/posts/622382554568759/",
+    "title": "Relay (declarative data for React applications) officially released [xpost from /r/reactjs]",
+    "author": "itsananderson",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442263295000
+  },
+  {
+    "id": "3kyf76",
+    "url": "https://github.com/gre/behind-asteroids",
+    "title": "Interesting game post-mortem: WebGL post-processing",
+    "author": "mrspeaker",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442262973000
+  },
+  {
+    "id": "3kzrca",
+    "url": "http://themihirchronicles.tumblr.com/post/129081364525/scope-vs-context-in-javascript",
+    "title": "Scope vs Context in JavaScript",
+    "author": "mihirchronicles",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442284403000
+  },
+  {
+    "id": "3kyvbm",
+    "url": "https://www.youtube.com/watch?v=WTADnxaen4U",
+    "title": "[Video] Creating a YouTube Code Tutorial - Best Practices",
+    "author": "zwhitchcox",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442269592000
+  },
+  {
+    "id": "3kyuvy",
+    "url": "http://graphql.org/",
+    "title": "GraphQL",
+    "author": "clessg",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442269389000
+  },
+  {
+    "id": "3kzjyx",
+    "url": "http://www.reddit.com/r/javascript/comments/3kzjyx/mapping_a_programme_out_just_been_using_the/",
+    "title": "mapping a programme out - just been using the debugger, is there a way to see the execution path (or something like it?)",
+    "author": "__baxx__",
+    "text": "I've only just been using the debugger in firefox and it's great for following things about, seeing values and all that jazz. \n\nSo what I've been doing a bit is just mashing f11 and watching where the programme goes, which is quite interesting, though sometimes I kinda lose the flow of it a bit. I thought that I could maybe map out on pen and paper the order functions were called and stuff, then I thought that maybe there's a better way to do this, so thought I'd see. \n\ncheers. \n",
+    "board": "javascript",
+    "createdAt": 1442280895000
+  },
+  {
+    "id": "3kxmrp",
+    "url": "http://www.reddit.com/r/javascript/comments/3kxmrp/how_to_place_image_in_center_of_div/",
+    "title": "How to place image in center of div?",
+    "author": "erucae",
+    "text": "https://pastee.org/eqkcf\n\nThis might sound like a rookie question, but its more of an efficiency question, what is the most efficient way to do this, and could you give me an example. I know this is a Javascript Wiki, but you guys are the homies when it comes to this, appreciate it in advance. (I commented out the image I want to center) (It is the firstcar.jpg img src)",
+    "board": "javascript",
+    "createdAt": 1442251966000
+  },
+  {
+    "id": "3kz25i",
+    "url": "http://codeplanet.io/react-js-a-step-backward/",
+    "title": "Are react.js onclick events moving the web backwards?",
+    "author": "codeplanet",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442272568000
+  },
+  {
+    "id": "3kywui",
+    "url": "http://www.reddit.com/r/javascript/comments/3kywui/microsoft_samlike_reading_text_files/",
+    "title": "\"Microsoft Sam\"-like reading text files",
+    "author": "fjaxyu",
+    "text": "I've been working on a project with angular, node, and what not and I was curious if it was possible to have a program that would read out loud some text the way Microsoft Sam would or just some voice. Really don't know how to search for something like that either. Thanks!",
+    "board": "javascript",
+    "createdAt": 1442270276000
+  },
+  {
+    "id": "3kytjh",
+    "url": "https://scotch.io/tutorials/building-a-slack-bot-with-node-js-and-chuck-norris-super-powers",
+    "title": "Building a Slack Bot with Node.js and Chuck Norris Super Powers",
+    "author": "loigiani",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442268821000
+  },
+  {
+    "id": "3kylsq",
+    "url": "http://www.reddit.com/r/javascript/comments/3kylsq/problem_using_the_download_attribute_with_jpg/",
+    "title": "Problem using the download attribute with jpg",
+    "author": "ShampooDigester",
+    "text": "So I'm trying to get images to download when clicking on them. A solution for this is to use the attribute 'download' in an &lt;a href=\"image.jpg\" download=filename&gt;. For png images it works just fine, but for .jpg images, firefox defaults to showing it in the browser. Is there a way to override the default jpg handling action of firefox?",
+    "board": "javascript",
+    "createdAt": 1442265602000
+  },
+  {
+    "id": "3kygyg",
+    "url": "https://github.com/gajus/table",
+    "title": "\"table\" package (for drawing text tables; with support for ANSI colours, fullwidth characters, etc.)",
+    "author": "krumoksnis",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442263682000
+  },
+  {
+    "id": "3kwe7k",
+    "url": "http://timdown.co.uk/jshashtable/",
+    "title": "A standalone hash table implementation in JavaScript",
+    "author": "e66n06",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442231899000
+  },
+  {
+    "id": "3kwwdb",
+    "url": "https://www.jonathanfielding.com/how-to-use-your-sass-variables-inside-your-javascript/",
+    "title": "Use you Sass variables in JavaScript",
+    "author": "jonthanfielding",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442240948000
+  },
+  {
+    "id": "3kyd5x",
+    "url": "https://github.com/haegemon",
+    "title": "Sync - Small library that allows synchronizing code execution at different tabs.",
+    "author": "haegemon",
+    "text": "",
+    "board": "javascript",
+    "createdAt": 1442262120000
+  }
+]

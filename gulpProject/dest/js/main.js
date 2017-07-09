@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"js",shim:"",paths:{main:"main"}}),requirejs(["mui-require","../../jquery-2.0.3","canvas","statistic-require"],function(e,i,t,n){e.init({gestureConfig:{tap:!0,doubletap:!0}}),t(),n(),e("#mychart")[0].addEventListener("tap",function(){e.alert("666")}),console.log(e("div").length)});

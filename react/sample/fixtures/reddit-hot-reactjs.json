@@ -1,0 +1,236 @@
+[
+  {
+    "id": "3kyeqy",
+    "url": "http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
+    "title": "Full-Stack Redux Tutorial",
+    "author": "jairtrejo",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442262774000
+  },
+  {
+    "id": "3kxlny",
+    "url": "https://code.facebook.com/posts/1189117404435352/",
+    "title": "React Native for Android: How we built the first cross-platform React Native app",
+    "author": "clessg",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442251543000
+  },
+  {
+    "id": "3l0mya",
+    "url": "http://www.reddit.com/r/reactjs/comments/3l0mya/helpbest_practices_on_passing_down_actions_to_sub/",
+    "title": "[HELP]Best practices on passing down actions to sub components",
+    "author": "cynicalreason",
+    "text": "I thought redux was supposed to help with this, from what i read [here](https://github.com/rackt/redux/issues/245) and [here](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) passing down actions directly is seen as 'not optimal'.\n\nHowever I have a structure like this\n\n    &lt;App&gt;\n         &lt;Header /&gt;\n         &lt;MainSection&gt;\n               &lt;ItemList&gt;\n                     &lt;Item&gt;\n                             &lt;ItemActions/&gt;\n                     &lt;/Item&gt;\n               &lt;/ItemList&gt;\n         &lt;/MainSection&gt;\n         &lt;Footer /&gt;\n    &lt;/App&gt;\n\nAnd I need to pass down actions all the way down to ItemActions .. the current pattern I see is to keep passing them down from component to component .. which is getting confusing at some point. Ideally I would want to hook the actions I need directly into ItemActions without taking them through all the tree .. anyone got any experience with this ?",
+    "board": "reactjs",
+    "createdAt": 1442303792000
+  },
+  {
+    "id": "3kz6r3",
+    "url": "http://www.maxburstein.com/blog/rendering-12000-image-albums-at-imgur/",
+    "title": "Rendering 12,000 Image Albums at Imgur",
+    "author": "Gillingham",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442274597000
+  },
+  {
+    "id": "3kyfqq",
+    "url": "https://code.facebook.com/posts/622382554568759/",
+    "title": "Relay: Declarative data for React applications | Engineering Blog | Facebook Code",
+    "author": "itsananderson",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442263200000
+  },
+  {
+    "id": "3kzolg",
+    "url": "https://salt.bountysource.com/teams/amok",
+    "title": "Support Amok: Never. Reload. Again.",
+    "author": "caspervonb",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442283107000
+  },
+  {
+    "id": "3kwdl1",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kwdl1/react_without_jsx_flux_es6_webpack/",
+    "title": "React without JSX, Flux, ES6, Webpack...",
+    "author": "jamesknelson",
+    "text": "So one of the things I keep seeing (and experienced myself back in the day) is that people like React, but all the *other* tools that come with it are a bit overwhelming.\n\nPersonally I use *way too many* tools, but I can see how it would make a lot more sense to learn React without them. So with this in mind, I've done a [write up](http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/) on using React without *any* tools (even JSX). I hope you find it useful, and I'd love to hear your thoughts (for example, would you use `React.createElement` differently to how I've used it)?\n\nAlso, since this is reddit and nobody is going to sign up for my mailing list *anyway*, heres the link to my [React cheatsheet](http://jamesknelson.com/react-cheatsheet.pdf) which people who sign up receive. *Feedback would be greatly appreciated!*",
+    "board": "reactjs",
+    "createdAt": 1442231498000
+  },
+  {
+    "id": "3kzm8l",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kzm8l/how_to_use_child_component_to_update_state/",
+    "title": "How to use child component to update state parent's state",
+    "author": "massover",
+    "text": "I have a form using react-formsy (https://github.com/christianalfoni/formsy-react). I am trying to integrate it with react-dropzone-component(https://github.com/felixrieseberg/React-Dropzone-Component)\n\nIs it possible to use use some of the events from the react dropzone to disable/enable the submit button state on the form?\n\n\n\n\n\nhttp://pastebin.com/VQmzigN2\n\n    const eventHandlers = {\n       addedfile(file) {\n          //How can I have these functions update the state within the form?  \n       }\n    }\n \n    export class LiftForm extends React.Component {\n      ....\n      enableButton() {\n        this.setState({canSubmit: true});\n      }\n      disableButton() {\n        this.setState({canSubmit: false});\n      }\n      ...\n      render() {\n        return (\n          &lt;div&gt;\n            &lt;Formsy.Form onValidSubmit={this.submit} onValid={this.enableButton} onInvalid={this.disableButton}&gt;\n              &lt;FRC.Row layout=\"horizontal\" label=\"Video (optional)\"&gt;\n                //How can I have this Component alter the the state of this form?\n                &lt;DropzoneComponent eventHandlers={eventHandlers} /&gt;\n          &lt;/FRC.Row&gt;\n          &lt;FRC.Row layout={this.state.layout}&gt;\n            &lt;input\n              className=\"btn btn-primary\"\n              disabled={!this.state.canSubmit}\n              formNoValidate={true}\n              type=\"submit\"\n              defaultValue=\"Submit\"\n            /&gt;\n          &lt;/FRC.Row&gt;\n        &lt;/Formsy.Form&gt;\n      &lt;/div&gt;\n    );\n  }\n",
+    "board": "reactjs",
+    "createdAt": 1442281978000
+  },
+  {
+    "id": "3ky7m6",
+    "url": "http://furqanzafar.github.io/react-selectize/",
+    "title": "React Selectize -- A flexible Select component for React with MultiSelect support",
+    "author": "furqanZafar",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442259935000
+  },
+  {
+    "id": "3kxqqw",
+    "url": "http://survivejs.com/blog/redux-interview/",
+    "title": "Redux - Reinventing Flux - Interview with Dan Abramov",
+    "author": "bebraw",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442253485000
+  },
+  {
+    "id": "3ky12b",
+    "url": "https://facebook.github.io/react-native/docs/android-setup.html",
+    "title": "Getting React Native for Android set up",
+    "author": "Walter_Bishop_PhD",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442257402000
+  },
+  {
+    "id": "3kxbxg",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kxbxg/using_react_for_a_personal_site_blog/",
+    "title": "Using React for a personal site / blog",
+    "author": "Rhymnocerus",
+    "text": "Hey everyone,\n\nI spent the whole weekend looking at static site generators (Middleman, Jekyll, MetalSmith, etc) and I thought I was content with Metalsmith until I realized how annoying it was to go to and from handlebar templates to html files. I just couldn't see myself getting into that workflow and improving my dev skills.\n\nSo here I am looking into React and it feels good. Are there any projects or personal sites / starter stacks you all would recommend to get going with a personal site?\n\nCheers!",
+    "board": "reactjs",
+    "createdAt": 1442247670000
+  },
+  {
+    "id": "3kxqe2",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kxqe2/the_react_relay_flux_and_graphql_stack_rrfg/",
+    "title": "The React, Relay, Flux, and GraphQL Stack (RRFG?)",
+    "author": "samerbuna",
+    "text": "I hope by being here, you have the feeling that this stack is the future of rich-clients web and mobile applications!\n\nThe time to learn it is NOW. I am organizing a 1-week online camp in October, about it all. \n\n**[ReactjsCamp.com](http://ReactjsCamp.com)**\n\nLadies, students, unemployed, and the generally broke, can get a discount, email me (samerbuna at gmail)\n\n*I am also giving away free tickets for those who are planning on building something that would positively affect other peoples lives, let me know*",
+    "board": "reactjs",
+    "createdAt": 1442253357000
+  },
+  {
+    "id": "3kyaxi",
+    "url": "https://github.com/MattMcFarland/react-markdown-area",
+    "title": "\"react-markdown-area\" brings \"textarea\" up a notch",
+    "author": "tonechild",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442261243000
+  },
+  {
+    "id": "3kwxs5",
+    "url": "http://olegakbarov.github.io/react-cssmodules-demo/",
+    "title": "Intro to CSS Modules with React",
+    "author": "olegakbarov",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442241602000
+  },
+  {
+    "id": "3ku6gi",
+    "url": "http://www.retalk.org/videos/cross-platform-react-reusing-your-code-between-the-web-and-react-native",
+    "title": "Cross-platform React: reusing your code between the web and React Native",
+    "author": "shaundunne",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442183925000
+  },
+  {
+    "id": "3kv2vz",
+    "url": "https://github.com/pqx/react-frame",
+    "title": "React components within an iframe for isolated css styling",
+    "author": "wangzuo",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442199865000
+  },
+  {
+    "id": "3kt1eb",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kt1eb/react_native_boilerplate_with_flux_webpack_and/",
+    "title": "React native boilerplate, with flux, webpack and hot loader support",
+    "author": "OssamaZ",
+    "text": "This is a simple boilerplate for react native flux projects.\n\nIt contains all the boilerplate you need to make use of *flux*, *hot reload* and *webpack* for react native.\n\nThe starting point of your app is in the **App** folder, the code uses all the ES2015 features as the babel loader is also configured by default.\n\n[RN Flux Boilerplate](https://github.com/OssamaZ/react-native-flux-boilerplate)\n\ni hope you'll find it useful :)",
+    "board": "reactjs",
+    "createdAt": 1442166271000
+  },
+  {
+    "id": "3kvd6l",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kvd6l/react_router_server_side/",
+    "title": "react router server side?",
+    "author": "sayurichick",
+    "text": "If I load my app and click on a link that takes me to /about, it loads the proper component.\n\nIf I copy the url http://localhost:8000/about, and paste it in a new browser or tab, I get a 404 response from Hapi.\n\n    {\"statusCode\":404,\"error\":\"Not Found\"}\n\nWhere/how do I setup my react routes to work server-side?\n",
+    "board": "reactjs",
+    "createdAt": 1442205542000
+  },
+  {
+    "id": "3kq9if",
+    "url": "http://www.reddit.com/r/reactjs/comments/3kq9if/question_about_handling_back_presses/",
+    "title": "Question about handling back presses.",
+    "author": "createsomethingbig",
+    "text": "Hey guys. Getting myself familiar with React. \n\n&amp;nbsp; \n\nFrom my limited understanding, I see React has a few lifecycle methods. One that I have been using in most of my pages is componentDidMount(). I'm using it to check if the user is authenticated on Facebook and hiding the login button if they are.\n\n&amp;nbsp; \n\nSo far everything works great if you navigate between pages via the links. However if a user (that is authenticated already) goes from the index page to a settings page then presses the browser's back button they'll return to the index page but componentDidMount() doesn't fire, which means the function to check if they're authenticated never runs and the login button remains showing. Is there a lifecycle method or way around this problem?",
+    "board": "reactjs",
+    "createdAt": 1442105178000
+  },
+  {
+    "id": "3kpfy8",
+    "url": "http://users.softlab.ntua.gr/~ttsiod/score4jsreact.html",
+    "title": "Porting my Score4 game to React/TypeScript",
+    "author": "ttsiodras",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442091336000
+  },
+  {
+    "id": "3kln80",
+    "url": "https://github.com/rackt/react-router",
+    "title": "React-Router v1.0.0-rc1 Released",
+    "author": "oguzbilgic",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442011095000
+  },
+  {
+    "id": "3kl54h",
+    "url": "http://browniefed.com/blog/2015/09/10/the-shapes-of-react-native/",
+    "title": "The Shapes of React Native",
+    "author": "thatsgreat2345",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1442003513000
+  },
+  {
+    "id": "3kiof7",
+    "url": "https://github.com/GetExpert/redux-blog-example",
+    "title": "Redux full-featured example (SSR, Auth, Markdown, CSS Modules)",
+    "author": "olegakbarov",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1441959825000
+  },
+  {
+    "id": "3kjkxs",
+    "url": "https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0",
+    "title": "An iOS Developer on React Native — iOS App Development",
+    "author": "dustingetz",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1441980417000
+  },
+  {
+    "id": "3kka34",
+    "url": "https://github.com/ericlathrop/react-separate-admin-bundle",
+    "title": "Example React app that builds bundles with and without admin components",
+    "author": "ericlathrop",
+    "text": "",
+    "board": "reactjs",
+    "createdAt": 1441990771000
+  }
+]

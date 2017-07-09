@@ -1,0 +1,4 @@
+root: E:\exercise\8-node.js\nvm
+path: C:\exercise\8-node.js\nodejs
+arch: 64
+proxy:

@@ -1,0 +1,1 @@
+define(["./index","./canvas"],function(n,e){return{color:n.color,size:"large",addToCart:function(){inventory.decrement(this),cart.add(this)}}});

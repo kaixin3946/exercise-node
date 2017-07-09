@@ -1,0 +1,1 @@
+module.exports="这里是模块导出";
